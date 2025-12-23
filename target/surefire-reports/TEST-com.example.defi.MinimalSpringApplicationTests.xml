@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.defi.MinimalSpringApplicationTests" time="7.832" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi\target\test-classes;C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi\target\classes;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.5\spring-boot-starter-web-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.5\spring-boot-starter-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.5\spring-boot-starter-logging-3.3.5.jar;C:\Users\kawta\.m2\repository\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;C:\Users\kawta\.m2\repository\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;C:\Users\kawta\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\kawta\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\kawta\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\kawta\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kawta\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.5\spring-boot-starter-json-3.3.5.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.5\spring-boot-starter-tomcat-3.3.5.jar;C:\Users\kawta\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.31\tomcat-embed-core-10.1.31.jar;C:\Users\kawta\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.31\tomcat-embed-el-10.1.31.jar;C:\Users\kawta\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.31\tomcat-embed-websocket-10.1.31.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-web\6.1.14\spring-web-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-beans\6.1.14\spring-beans-6.1.14.jar;C:\Users\kawta\.m2\repository\io\micrometer\micrometer-observation\1.13.6\micrometer-observation-1.13.6.jar;C:\Users\kawta\.m2\repository\io\micrometer\micrometer-commons\1.13.6\micrometer-commons-1.13.6.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-webmvc\6.1.14\spring-webmvc-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-aop\6.1.14\spring-aop-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-context\6.1.14\spring-context-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-expression\6.1.14\spring-expression-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.5\spring-boot-starter-data-jpa-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.5\spring-boot-starter-aop-3.3.5.jar;C:\Users\kawta\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.5\spring-boot-starter-jdbc-3.3.5.jar;C:\Users\kawta\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-jdbc\6.1.14\spring-jdbc-6.1.14.jar;C:\Users\kawta\.m2\repository\org\hibernate\orm\hibernate-core\6.5.3.Final\hibernate-core-6.5.3.Final.jar;C:\Users\kawta\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\kawta\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\kawta\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\kawta\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\kawta\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\kawta\.m2\repository\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;C:\Users\kawta\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\kawta\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\kawta\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\kawta\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\kawta\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\kawta\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\kawta\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\kawta\.m2\repository\org\springframework\data\spring-data-jpa\3.3.5\spring-data-jpa-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\data\spring-data-commons\3.3.5\spring-data-commons-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-orm\6.1.14\spring-orm-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-tx\6.1.14\spring-tx-6.1.14.jar;C:\Users\kawta\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-aspects\6.1.14\spring-aspects-6.1.14.jar;C:\Users\kawta\.m2\repository\org\postgresql\postgresql\42.7.4\postgresql-42.7.4.jar;C:\Users\kawta\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\kawta\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.5\spring-boot-starter-test-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-test\3.3.5\spring-boot-test-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.5\spring-boot-test-autoconfigure-3.3.5.jar;C:\Users\kawta\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\kawta\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\kawta\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\kawta\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\kawta\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\kawta\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\kawta\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\kawta\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\kawta\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.5\junit-jupiter-5.10.5.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\kawta\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\kawta\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\kawta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.5\junit-jupiter-params-5.10.5.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.5\junit-jupiter-engine-5.10.5.jar;C:\Users\kawta\.m2\repository\org\junit\platform\junit-platform-engine\1.10.5\junit-platform-engine-1.10.5.jar;C:\Users\kawta\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\kawta\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;C:\Users\kawta\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\kawta\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\kawta\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\kawta\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-core\6.1.14\spring-core-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-jcl\6.1.14\spring-jcl-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-test\6.1.14\spring-test-6.1.14.jar;C:\Users\kawta\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-configuration-processor\3.3.5\spring-boot-configuration-processor-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-devtools\3.3.5\spring-boot-devtools-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot\3.3.5\spring-boot-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.5\spring-boot-autoconfigure-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-docker-compose\3.3.5\spring-boot-docker-compose-3.3.5.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\kawta\AppData\Local\Temp\surefire2306635020378996346\surefirebooter-20251112184445230_3.jar C:\Users\kawta\AppData\Local\Temp\surefire2306635020378996346 2025-11-12T18-44-43_026-jvmRun1 surefire-20251112184445230_1tmp surefire_0-20251112184445230_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi\target\test-classes;C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi\target\classes;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.5\spring-boot-starter-web-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.5\spring-boot-starter-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.5\spring-boot-starter-logging-3.3.5.jar;C:\Users\kawta\.m2\repository\ch\qos\logback\logback-classic\1.5.11\logback-classic-1.5.11.jar;C:\Users\kawta\.m2\repository\ch\qos\logback\logback-core\1.5.11\logback-core-1.5.11.jar;C:\Users\kawta\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\kawta\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\kawta\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\kawta\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kawta\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.5\spring-boot-starter-json-3.3.5.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.5\spring-boot-starter-tomcat-3.3.5.jar;C:\Users\kawta\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.31\tomcat-embed-core-10.1.31.jar;C:\Users\kawta\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.31\tomcat-embed-el-10.1.31.jar;C:\Users\kawta\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.31\tomcat-embed-websocket-10.1.31.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-web\6.1.14\spring-web-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-beans\6.1.14\spring-beans-6.1.14.jar;C:\Users\kawta\.m2\repository\io\micrometer\micrometer-observation\1.13.6\micrometer-observation-1.13.6.jar;C:\Users\kawta\.m2\repository\io\micrometer\micrometer-commons\1.13.6\micrometer-commons-1.13.6.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-webmvc\6.1.14\spring-webmvc-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-aop\6.1.14\spring-aop-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-context\6.1.14\spring-context-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-expression\6.1.14\spring-expression-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.5\spring-boot-starter-data-jpa-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.5\spring-boot-starter-aop-3.3.5.jar;C:\Users\kawta\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.5\spring-boot-starter-jdbc-3.3.5.jar;C:\Users\kawta\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-jdbc\6.1.14\spring-jdbc-6.1.14.jar;C:\Users\kawta\.m2\repository\org\hibernate\orm\hibernate-core\6.5.3.Final\hibernate-core-6.5.3.Final.jar;C:\Users\kawta\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\kawta\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\kawta\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\kawta\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\kawta\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\kawta\.m2\repository\net\bytebuddy\byte-buddy\1.14.19\byte-buddy-1.14.19.jar;C:\Users\kawta\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\kawta\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\kawta\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\kawta\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\kawta\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\kawta\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\kawta\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\kawta\.m2\repository\org\springframework\data\spring-data-jpa\3.3.5\spring-data-jpa-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\data\spring-data-commons\3.3.5\spring-data-commons-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-orm\6.1.14\spring-orm-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-tx\6.1.14\spring-tx-6.1.14.jar;C:\Users\kawta\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-aspects\6.1.14\spring-aspects-6.1.14.jar;C:\Users\kawta\.m2\repository\org\postgresql\postgresql\42.7.4\postgresql-42.7.4.jar;C:\Users\kawta\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\kawta\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.5\spring-boot-starter-test-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-test\3.3.5\spring-boot-test-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.5\spring-boot-test-autoconfigure-3.3.5.jar;C:\Users\kawta\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\kawta\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\kawta\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\kawta\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\kawta\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\kawta\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\kawta\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\kawta\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\kawta\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.5\junit-jupiter-5.10.5.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\kawta\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\kawta\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\kawta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.5\junit-jupiter-params-5.10.5.jar;C:\Users\kawta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.5\junit-jupiter-engine-5.10.5.jar;C:\Users\kawta\.m2\repository\org\junit\platform\junit-platform-engine\1.10.5\junit-platform-engine-1.10.5.jar;C:\Users\kawta\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\kawta\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar;C:\Users\kawta\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\kawta\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\kawta\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\kawta\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-core\6.1.14\spring-core-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-jcl\6.1.14\spring-jcl-6.1.14.jar;C:\Users\kawta\.m2\repository\org\springframework\spring-test\6.1.14\spring-test-6.1.14.jar;C:\Users\kawta\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-configuration-processor\3.3.5\spring-boot-configuration-processor-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-devtools\3.3.5\spring-boot-devtools-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot\3.3.5\spring-boot-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.5\spring-boot-autoconfigure-3.3.5.jar;C:\Users\kawta\.m2\repository\org\springframework\boot\spring-boot-docker-compose\3.3.5\spring-boot-docker-compose-3.3.5.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\kawta\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kawta"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="windows-1252"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\kawta\AppData\Local\Temp\surefire2306635020378996346\surefirebooter-20251112184445230_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="kawta"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kawta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kawta\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="20212"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;D:\WINDOWS.X64_193000_db_home\bin;C:\Python314\Scripts\;C:\Python314\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\flutter_windows_3.35.6-stable\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;D:\flutter_windows_3.35.6-stable\flutter\bin;C:\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kawta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.5\bin;;D:\Programs\Microsoft VS Code\bin;C:\tools\dart-sdk\bin;C:\Users\kawta\AppData\Local\Pub\Cache\bin;D:\Users\kawta\AppData\Local\Programs\Windsurf\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[defi-backend] "/>
+  </properties>
+  <testcase name="contextLoads" classname="com.example.defi.MinimalSpringApplicationTests" time="0.687">
+    <system-out><![CDATA[18:44:46.236 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.defi.MinimalSpringApplicationTests]: MinimalSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:44:46.462 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.defi.DefiBackendApplication for test class com.example.defi.MinimalSpringApplicationTests
+18:44:46.940 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2025-11-12T18:44:47.314+01:00  INFO 20212 --- [defi-backend] [           main] c.e.defi.MinimalSpringApplicationTests   : Starting MinimalSpringApplicationTests using Java 17.0.12 with PID 20212 (started by kawta in C:\Users\kawta\OneDrive\Desktop\DEFI_EMSI\Defi)
+2025-11-12T18:44:47.316+01:00  INFO 20212 --- [defi-backend] [           main] c.e.defi.MinimalSpringApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T18:44:48.337+01:00  INFO 20212 --- [defi-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-12T18:44:48.467+01:00  INFO 20212 --- [defi-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 6 JPA repository interfaces.
+2025-11-12T18:44:49.136+01:00  INFO 20212 --- [defi-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-12T18:44:49.259+01:00  INFO 20212 --- [defi-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-12T18:44:49.334+01:00  INFO 20212 --- [defi-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-12T18:44:49.948+01:00  INFO 20212 --- [defi-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-12T18:44:50.014+01:00  INFO 20212 --- [defi-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-12T18:44:50.263+01:00  INFO 20212 --- [defi-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67b5e613
+2025-11-12T18:44:50.265+01:00  INFO 20212 --- [defi-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-12T18:44:50.333+01:00  WARN 20212 --- [defi-backend] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-12T18:44:51.808+01:00  INFO 20212 --- [defi-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table alert (
+        id bigint not null,
+        is_read boolean not null,
+        message varchar(255),
+        timestamp timestamp(6) with time zone,
+        clinic_id bigint,
+        patient_id bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table alert_history (
+        idahistory bigint generated by default as identity,
+        alert_id bigint,
+        clinic_id bigint,
+        patient_id bigint,
+        primary key (idahistory)
+    )
+Hibernate: 
+    create table clinic (
+        id bigint generated by default as identity,
+        address varchar(255),
+        license_number varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table patient (
+        id bigint generated by default as identity,
+        cin varchar(255),
+        address varchar(255),
+        first_name varchar(255),
+        last_name varchar(255),
+        wallet varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table payment_history (
+        idphistory bigint generated by default as identity,
+        clinic_id bigint,
+        payment_request_id varchar(255),
+        primary key (idphistory)
+    )
+Hibernate: 
+    create table payment_request (
+        request_id varchar(255) not null,
+        amount_due numeric(38,2),
+        created_at timestamp(6) with time zone,
+        paid_at timestamp(6) with time zone,
+        service_code varchar(255),
+        service_description varchar(255),
+        status varchar(255) check (status in ('PAID','UNPAID')),
+        token varchar(255),
+        transaction_hash varchar(255),
+        clinic_id bigint,
+        patient_id bigint,
+        primary key (request_id)
+    )
+Hibernate: 
+    alter table if exists alert 
+       add constraint FKjbgu1pfoto42y3rqwxxjd2o4y 
+       foreign key (clinic_id) 
+       references clinic
+Hibernate: 
+    alter table if exists alert 
+       add constraint FKmkv578w7sv5lq36fq7iwwwu8p 
+       foreign key (patient_id) 
+       references patient
+Hibernate: 
+    alter table if exists alert_history 
+       add constraint FKq5qeba4fpjuuhfuaven27w8r9 
+       foreign key (alert_id) 
+       references alert
+Hibernate: 
+    alter table if exists alert_history 
+       add constraint FKnwm6girohv4otd1p5huahx3au 
+       foreign key (clinic_id) 
+       references clinic
+Hibernate: 
+    alter table if exists alert_history 
+       add constraint FKd46xtwvre0qrrxsbttkq30992 
+       foreign key (patient_id) 
+       references patient
+Hibernate: 
+    alter table if exists payment_history 
+       add constraint FKf9ny0qdc0a24be5c8g5u7d9ko 
+       foreign key (clinic_id) 
+       references clinic
+Hibernate: 
+    alter table if exists payment_history 
+       add constraint FKkayuby3smbcd64a6r4k5dyytr 
+       foreign key (payment_request_id) 
+       references payment_request
+Hibernate: 
+    alter table if exists payment_request 
+       add constraint FKdve30suj7etsjtd3u02m254it 
+       foreign key (clinic_id) 
+       references clinic
+Hibernate: 
+    alter table if exists payment_request 
+       add constraint FK3y745mngswa0f2l6j7uk98k4y 
+       foreign key (patient_id) 
+       references patient
+2025-11-12T18:44:51.970+01:00  INFO 20212 --- [defi-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-12T18:44:52.608+01:00  WARN 20212 --- [defi-backend] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-12T18:44:53.129+01:00  INFO 20212 --- [defi-backend] [           main] c.e.defi.MinimalSpringApplicationTests   : Started MinimalSpringApplicationTests in 6.216 seconds (process running for 7.782)
+]]></system-out>
+  </testcase>
+</testsuite>
